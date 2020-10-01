@@ -10,7 +10,7 @@ const challenge1 = () => {
 
 const challenge2 = () => {
     axios
-        .get("https://jsonplaceholder.typicode.com/posts?userId-8")
+        .get("https://jsonplaceholder.typicode.com/posts?userId=8")
         .then((res) => {
             console.log(res.data);
         });
